@@ -2,6 +2,11 @@ body {
     background: url("../img/bokeh.jpg") fixed;
 }
 
+.jumbotron {
+    text-align: center;
+    margin-top: 75px;
+}
+
 .container {
     margin: 0 auto;
 }
@@ -11,14 +16,22 @@ body {
 }
 
 .masthead h3 {
-    display: inline-block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: block;
     font-size: 16px;
     text-transform: uppercase;
     color: black;
     margin: 0 auto 30px;
-    display: block;
+    background-color: whitesmoke;
     width: 100%;
     border-bottom: 1px dashed lightgrey;
+    z-index: 10;
+}
+
+.navbar {
+    margin-top: 80px;
 }
 
 .navbar-inner {
@@ -32,8 +45,13 @@ body {
 }
 
 .nav li {
-    width: 16.25%;
+    width: 155.6px;
     border-left: 1px solid lightgrey;
+}
+
+.nav li:hover {
+    background: yellow;
+    transition: all .3s;
 }
 
 .nav li a {
@@ -41,6 +59,19 @@ body {
     font-weight: bold;
 }
 
-.jumbotron {
-    text-align: center;
+.jumbotron .btn {
+    margin-top: 10px;
+    background: #7DBF54;
+    box-shadow: 0 2px black;
+}
+
+.jumbotron h1 {
+    font-size: 60px;
+    color: #403322;
+    margin-bottom: 20px;
+    margin-top: 100px;
+}
+
+hr {
+    margin: 100px 0;
 }
