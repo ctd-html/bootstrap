@@ -1,0 +1,49 @@
+.jumbotron {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px
+}
+
+h1 {
+    font-size: 5em
+}
+
+body{
+    background-image: url(../img/bokeh.jpg);
+}
+
+.container{
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.muted{
+    top: 0;
+    left: 0;
+    text-align: center;
+    border-bottom: black 2px;
+    margin:0;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    z-index: 15;
+    display: block;
+}
+
+.navbar{
+    text-align: center;
+    padding-top: 40px;
+    font-weight: bold;
+
+
+}
+
+li {
+    width: 150px;
+}
+
+.navbar-inner{
+    padding-left: 0;
+    padding-right: 0;
+}
