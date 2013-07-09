@@ -3,6 +3,8 @@
 body {
     padding-top:80px;
     padding-bottom:60px;
+    background: url(../img/bokeh.jpg) no-repeat 0 0;
+    background-attachment: fixed;
 }
 
 .container {
