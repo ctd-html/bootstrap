@@ -7,6 +7,7 @@ body {
 
 .container {
     padding: 0;
+    margin: 0 auto;
 }
 
 .container > hr {
@@ -93,4 +94,7 @@ h1 {
 .jumbotron .btn {
     font-size:21px;
     padding:14px 24px;
+    background: #5DBA5D;
+    box-shadow: 0 3px 0 #1c411c;
+    border: none;
 }
