@@ -1,0 +1,75 @@
+/*GENERAL*/
+body{
+    background-image: url("../img/bokeh.jpg");
+    background-attachment: fixed;
+    background-position: center center;
+ }
+
+/*TOP HEADER*/
+
+.muted{
+    z-index: 5;
+    position: fixed;
+    top:0;
+    left:0;
+    background-color: white;
+    width:100%;
+    text-align: center;
+    border-bottom: 1px dashed #ccc;
+    margin-top: 0;
+    text-transform: uppercase;
+    color:black;
+    font-size:20px;
+}
+
+/*NAVIGATION BAR*/
+.navbar{
+    margin-top: 70px;
+}
+
+.navbar-inner{
+    padding: 0;
+}
+
+.navbar .nav > li > a {
+    padding: 10px 50px;
+    transition: background-color 0.4s;
+}
+
+.navbar .nav > li > a:hover{
+background-color: yellow;
+}
+
+/*MAIN TEXT*/
+
+.container{
+    margin:0 auto;
+}
+
+h1{
+    font-size: 70px;
+    margin: 70px 10px 30px 10px;
+}
+
+.jumbotron{
+    text-align: center;
+}
+
+.btn-success {
+    background-color:#5bb75b;
+    background-image: none;
+    border-bottom: 3px outset #5bb75b;
+    margin-bottom: 50px;
+}
+/*COLUMNS*/
+
+
+
+
+
+
+
+
+
+
+
