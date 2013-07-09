@@ -100,3 +100,9 @@ h1 {
     box-shadow: 0 3px 0 #1c411c;
     border: none;
 }
+
+/* Shows */
+
+.list {
+    margin-bottom: 20px;
+}
