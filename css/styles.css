@@ -1,4 +1,7 @@
 /*GENERAL*/
+::selection {
+background: red
+}
 body{
     background-image: url("../img/bokeh.jpg");
     background-attachment: fixed;
@@ -62,13 +65,3 @@ h1{
     border-bottom: 3px outset #5bb75b;
     margin-bottom: 50px;
 }
-
-
-
-
-
-
-
-
-
-
