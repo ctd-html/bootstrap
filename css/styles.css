@@ -1,6 +1,46 @@
 body {
     background: url("../img/bokeh.jpg") fixed;
 }
+
+.container {
+    margin: 0 auto;
+}
+
+.masthead {
+    text-align: center;
+}
+
+.masthead h3 {
+    display: inline-block;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: black;
+    margin: 0 auto 30px;
+    display: block;
+    width: 100%;
+    border-bottom: 1px dashed lightgrey;
+}
+
+.navbar-inner {
+    padding: 0;
+    width: 100%;
+}
+
+.navbar .nav {
+    width: 100%;
+    margin: 0;
+}
+
+.nav li {
+    width: 16.25%;
+    border-left: 1px solid lightgrey;
+}
+
+.nav li a {
+    padding: 0;
+    font-weight: bold;
+}
+
 .jumbotron {
     text-align: center;
 }
